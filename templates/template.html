@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logo.ico" type="image/x-icon">
+        <title>The Wedding Of Fredi and Rifta</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet" />
+        <link href="../fontawesome/css/all.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+    <style>
+    html{
+        padding: 0;
+        margin: 0;
+        background-image: linear-gradient(to bottom, rgba(225, 255, 177, 0.2), rgba(186, 255, 91, 0.2)), url(../img/bg-body2.jpg);
+    }
+    body{
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    #header{
+        top: 0;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+    }
+    #header .bg{
+        height: 100vh;
+        position: relative;
+        background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0.2), rgba(70, 70, 70, 0.4)), url(../img/bg.jpeg);
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    @media only screen and (max-width: 550px){
+        #header .bg{
+            position: relative;
+            background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0.2), rgba(70, 70, 70, 0.4)), url(../img/bg-1.jpeg);
+            background-position: center;
+            background-size: cover;
+            overflow: hidden;
+        }
+    }
+
+    .judul{
+        width: auto;
+        height: auto;
+        align-items: center;  
+        position: relative;
+        margin-top: 30%;
+        margin-bottom: 0;
+        display: block;
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 550px){
+        .judul{
+            height: auto;
+            align-items: center;  
+            position: relative;
+            margin-top: 50%;
+            margin-bottom: 0;
+            display: block;
+            justify-content: center;
+        }
+    }
+
+    #header .judul h2{
+        color: rgba(0,0,0,1);
+        position: relative;
+        margin: 0;
+        font-family: Montserrat;
+        font-weight: Bold;
+        font-size: 22px;
+        opacity: 1;
+        text-align: center;
+    }
+    #header .judul h1{
+        color: rgba(0,0,0,1);
+        position: relative;
+        margin: 0;
+        text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.0.25);
+        font-family: Great Vibes;
+        font-size: 52px;
+        opacity: 1;
+        text-align: center;
+    }
+    .tgl{
+        height: auto;
+        width: fit-content;
+        align-items: center;
+        position: relative;
+        margin-top: 2%;   
+        margin-left: auto;
+        margin-right: auto; 
+        margin-bottom: 10%;
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 550px){
+        .tgl{
+            height: auto;
+            width: fit-content;
+            align-items: center;
+            position: relative;
+            margin-top: 2%;   
+            margin-left: auto;
+            margin-right: auto; 
+            margin-bottom: 10%;
+            display: block;
+            justify-content: center;
+        }
+    }
+
+    #header .tgl .hari{
+        color: rgba(0,0,0,1);
+        position: relative;
+        margin: 0;
+        font-family: Montserrat;
+        font-weight: Bold;
+        font-size: 25px;
+        opacity: 1;
+        padding: 5px 10px;   
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    #header .tgl .tang{
+        color: rgba(0,0,0,1);
+        position: relative;
+        margin: 0;
+        font-family: Montserrat;
+        font-weight: Bold;
+        padding-top: 10px;
+        font-size: 25px;
+        opacity: 1;
+        padding: 0;   
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        justify-self: center;
+    }
+    /* Salam */
+    #intro .salam{
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #intro .salam h1{
+        color: rgba(0,0,0,1);
+        position: relative;
+        top: auto;
+        font-family: Cookie;
+        font-size: 32px;
+        opacity: 1;
+        text-align: center;
+    }
+    #intro .salam h2{
+        color: rgba(0,0,0,1);
+        position: relative;
+        top: auto;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    /* Kami */
+    #kami{
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #kami h1{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Cookie;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 32px;
+        opacity: 1;
+        text-align: center;
+    }
+    #kami .couple{
+        display: grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+    #kami .couple img{
+        width: 300px;
+        position: relative;
+        border-radius: 200px;
+        box-shadow: 1pt 2pt rgb(134, 134, 134, 0.4);
+        height: 300px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-repeat: no-repeat;
+    }
+
+    @media only screen and (max-width: 550px){
+        #kami .couple{
+            display: grid;
+            position: relative;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto;
+            text-align: center;
+        }
+    }
+
+    #kami .couple .nama{
+        color: rgba(0,0,0,1);
+        position: relative;
+        top: auto;
+        padding: 0;
+        margin: 0;
+        font-family: Cookie;
+        font-weight: 400;
+        font-size: 32px;
+        opacity: 1;
+    }
+    #kami .couple .anak{
+        color: rgba(0,0,0,1);
+        position: relative;
+        top: 0;
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 18px;
+        opacity: 1;
+        padding: 0;
+        margin: 0;
+    }
+
+    /*JADWAL*/
+    #jadwal{
+        height: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    #jadwal h1{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Cookie;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 32px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal p{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .akad{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        display: block;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+
+    #jadwal .tanggal h2{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .lokasi{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        font-size: 20px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .alamat{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #jadwal .resepsi{
+        width: auto;
+        display: grid;
+        position: relative;
+        grid-template-columns: 50% 50%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        justify-self: center;
+        justify-items: center;
+    }
+    @media only screen and (max-width: 700px){
+        #jadwal .resepsi{
+            margin-left: 10%;
+            margin-right: 10%;
+            width: 80%;
+            display: grid;
+            position: relative;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto auto auto auto;
+            text-align: center;
+            justify-self: center;
+            justify-items: center;
+        }
+    }
+    #jadwal .resepsi .tempat-wanita{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    #jadwal .resepsi .tempat-pria{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        display: block;
+    }
+    #jadwal .resepsi iframe{
+        position: relative;
+        text-align: center;
+        display: inline-block;
+    }
+    @media only screen and (max-width: 600px){
+        #jadwal .resepsi iframe{
+            width: auto;
+            position: relative;
+            text-align: center;
+            display: block;
+            justify-self: center;
+            justify-items: center;
+        }
+    }
+    #jadwal .resepsi .tanggal{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .resepsi h2{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        margin: 0;
+        margin-top: 20px;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .resepsi p{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        margin: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .akad h2{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        margin: 0;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    #jadwal .akad p{
+        color: rgba(0,0,0,1);
+        position: relative;
+        font-family: Montserrat;
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    /* Penutup */
+
+    #copyr .cr i{
+        width: auto;
+        padding: 5px;
+    }
+    #copyr .cr p{
+        top: 0;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        color: rgba(0,0,0,1);
+        font-family: Montserrat;
+        font-size: 18px;
+        opacity: 1;
+        text-align: center;
+    }
+    </style>
+    <body oncontextmenu = "return false" oncopy="return false" oncut="return false" onpaste="return false">
+        <!-- music -->
+        <audio autoplay>
+            <source src="../music.mp3" type="audio/mpeg">
+        </audio>
+        <!-- header -->
+        <section id="header">
+            <div class="bg">
+                <div class="judul">
+                    <h2><b>The Wedding Of</b></h2>
+                    <h1>Fredi <small>&amp;</small> Rifta</h1>
+                </div>
+                <div class="tgl">
+                    <h2 class="hari"><b>Jumat & Minggu</b></h2>
+                    <h2 class="tang"><b>27 & 29 Mei 2022</b></h2>
+                </div>
+            </div>
+        </section>
+        <!-- intro -->
+        <section id="intro">
+            <div class="salam">
+                <h1 data-aos="fade-up">Assalamualaikum Wr. Wb</h1>
+                <h2 data-aos="fade-up">Maha Suci Allah SWT., yang telah menciptakan makhluk-Nya berpasang-pasangan. Dengan memohon rahmat dan ridho Allah SWT., maka izinkan Kami mengundang sekaligus mengharapkan doa restu dari bapak/ibu dan saudara/i dalam acara pernikahan kami.</h2>
+            </div>
+        </section>
+        <!-- kami -->
+        <section id="kami">
+            <h1 data-aos="fade-up">Kami yang Berbahagia</h1>
+            <div class="couple">
+                <div class="pria">
+                    <img src="../img/aris.jpg" data-aos="fade-up">
+                    <h1 class="nama" data-aos="fade-up">Fredi Aris Aditya</h1>
+                    <h2 class="anak" data-aos="fade-up">Putra dari Bapak Soman (Alm) dan Ibu Sri Sulasmi</h2>
+                </div>
+                <div class="wanita">
+                    <img data-aos="fade-up" src="../img/rifta.png" data-aos="fade-up">
+                    <h1 data-aos="fade-up" class="nama" data-aos="fade-up">Rifta Amelia Pratiwi</h1>
+                    <h2 data-aos="fade-up" class="anak" data-aos="fade-up">Putri dari Bapak Musofal Ghoni dan Ibu Ro’ifah</h2>
+                </div>
+            </div>
+        </section>
+        <!-- jadwal -->
+        <section id="jadwal">
+            <h1 data-aos="fade-up">Jadwal</h1>
+            <p data-aos="fade-up">Kami mengharapkan kehadiran Bapak/Ibu dan Saudara/i pada acara yang kami selenggarakan.</p>
+            <h1 data-aos="fade-up">Akad Nikah</h1>
+            <div class="akad">
+                <div class="tempat">
+                    <h2 data-aos="fade-up"  class="lokasi"><b>Kediaman Mempelai Wanita</b></h2>
+                    <p data-aos="fade-up"  class="alamat">Kalimati Gang 4 Nomor 52, Kec. Margelo, Kota Mojokerto</p>
+                    <h2 data-aos="fade-up"  class="tanggal">
+                        <b>Jumat, 27 Mei 2022<br>
+                        08.00 WIB - Selesai</b>
+                    </h2>
+                </div>
+            </div>
+            <h1 data-aos="fade-up">Resepsi</h1>
+            <div class="resepsi">
+                <div class="tempat-wanita">
+                    <h2 data-aos="fade-up"  class="lokasi"><b>Kediaman Mempelai Wanita</b></h2>
+                    <p data-aos="fade-up"  class="alamat">Kalimati Gang 4 Nomor 52, Kec. Margelo, Kota Mojokerto</p>
+                    <h2 data-aos="fade-up"  class="tanggal">
+                        <b>Jumat, 27 Mei 2022<br>
+                            13.00 WIB - Selesai</b>
+                        </h2>
+                    <br>
+                    <iframe data-aos="fade-up" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.9683451225706!2d112.43414231415068!3d-7.468747475698391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780d8bf5028e3f%3A0x8a71a0fa5a52dd4c!2sJl.%20Kalimati%20IV%2C%20Mergelo%2C%20Kec.%20Magersari%2C%20Kota%20Mojokerto%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1652722256554!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="tempat-pria">
+                    <h2 data-aos="fade-up"  class="lokasi"><b>Kediaman Mempelai Pria</b></h2>
+                    <p data-aos="fade-up"  class="alamat">Dsn. Tengger RT.1 RW.8, Watukenongo, Pungging, Mojokerto</p>
+                    <h2 data-aos="fade-up"  class="tanggal">
+                        <b>Minggu, 29 Mei 2022<br>
+                        Jam Bebas</b>
+                        </h2>
+                    <br>
+                    <iframe data-aos="fade-up" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.7134405737274!2d112.570871614151!3d-7.496856176021332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e780b4b3067b313%3A0xd56068f0845ba88f!2sWarung%20Sumber%20Rezeki!5e0!3m2!1sid!2sid!4v1652722132844!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- copyr -->
+        <section id="copyr">
+            <div class="cr">                
+                <p><i class="fa-solid fa-copyright"></i>Created by Adik Aris</p>
+            </div>
+        </section>
+
+        <!-- aos -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
